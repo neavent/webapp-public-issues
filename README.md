@@ -6,9 +6,15 @@ This repository is dedicated to gathering feedback from our users. Since the sou
 
 ## 📝 How to Contribute
 
-We accept issues in **English** or **German**.
+We use standardized templates to process requests faster. Please choose the appropriate type below:
 
-Before submitting a new issue, please use the search function to check if someone else has already reported the same problem or requested the same feature.
+| Type | Description | Action |
+| :--- | :--- | :--- |
+| **BUG** | Something isn't working as expected? | [Report a Bug](https://github.com/neavent/webapp-public-issues/issues/new?template=bug_report.yml) |
+| **FEAT** | You have an idea for a new feature? | [Request Feature](https://github.com/neavent/webapp-public-issues/issues/new?template=feature_request.yml) |
+| **SEC** | Found a security vulnerability? | [Report Security Issue](https://github.com/neavent/webapp-public-issues/issues/new?template=security.yml) |
+
+> **Note:** Issues are accepted in **English** or **German**.
 
 ### 🏷️ Title Conventions
 
