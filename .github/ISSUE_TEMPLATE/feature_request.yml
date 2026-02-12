@@ -1,0 +1,12 @@
+name: Feature Request
+description: Schlage eine neue Funktion oder Verbesserung vor.
+title: "FEAT: "
+labels: ["feature"]
+body:
+  - type: textarea
+    id: pitch
+    attributes:
+      label: Idee & Beschreibung
+      description: Was möchtest du erreichen? Welches Problem soll gelöst werden?
+    validations:
+      required: true
