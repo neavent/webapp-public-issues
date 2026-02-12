@@ -1,0 +1,42 @@
+name: Security Issue
+description: Melde ein Sicherheitsproblem oder eine Schwachstelle.
+title: "SEC: "
+labels: ["security"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### ⚠️ ACHTUNG: Öffentliches Issue
+        Dies ist ein öffentlicher Issue Tracker. 
+        **Bitte poste KEINE sensiblen Daten** (echte Passwörter, API Keys, personenbezogene Daten).
+        
+        Falls du eine kritische Sicherheitslücke gefunden hast, die sofort ausgenutzt werden kann, kontaktiere uns bitte lieber direkt per E-Mail oder erstelle das Issue ohne kritische Details.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Beschreibung der Schwachstelle
+      description: Was ist das Risiko? Wer ist betroffen?
+      placeholder: Nutzer können auf Daten anderer zugreifen, wenn...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Proof of Concept / Schritte
+      description: Wie kann das Problem nachgestellt werden?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Schweregrad
+      options:
+        - Niedrig (Kosmetisch, kein Datenverlust)
+        - Mittel (Funktion eingeschränkt)
+        - Hoch (Datenleck, kritischer Fehler)
+        - Kritisch (Systemausfall, voller Zugriff)
+    validations:
+      required: true

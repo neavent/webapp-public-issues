@@ -1,0 +1,47 @@
+name: Bug Report
+description: Melde einen Fehler oder ein Problem in der App.
+title: "BUG: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Vielen Dank, dass du dir die Zeit nimmst, einen Fehler zu melden!
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Beschreibung
+      description: Was ist passiert? Bitte beschreibe den Fehler so genau wie möglich. Hänge wenn möglich Screenshots mit an.
+      placeholder: Wenn ich auf den Login-Button klicke, passiert nichts...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Schritte zum Reproduzieren
+      description: Wie können wir den Fehler nachstellen?
+      placeholder: |
+        1. Gehe auf die Seite '...'
+        2. Klicke auf '...'
+        3. Fehler tritt auf.
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Umgebung (Browser, OS)
+      description: z.B. Chrome 120, Windows 11, iPhone Safari
+      placeholder: Chrome auf MacOS
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Screenshots oder Logs
+      description: Füge hier Fehlermeldungen oder Screenshots ein.
+    validations:
+      required: false
