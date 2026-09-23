@@ -1,7 +1,7 @@
 name: Feature Request
 description: Schlage eine neue Funktion oder Verbesserung vor.
 title: "FEAT: "
-labels: ["feature"]
+type: "Feature"
 body:
   - type: textarea
     id: pitch
