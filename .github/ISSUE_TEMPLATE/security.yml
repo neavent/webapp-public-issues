@@ -1,7 +1,7 @@
 name: Security Issue
 description: Melde ein Sicherheitsproblem oder eine Schwachstelle.
 title: "SEC: "
-labels: ["security"]
+type: "Security"
 body:
   - type: markdown
     attributes:
